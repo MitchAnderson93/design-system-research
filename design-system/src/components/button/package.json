@@ -1,0 +1,13 @@
+{
+    "name": "@qld-design-system/button",
+    "version": "1.0.0",
+    "main": "index.js",
+    "module": "index.js",
+    "files": [
+      "**/*"
+    ],
+    "dependencies": {},
+    "devDependencies": {},
+    "peerDependencies": {}
+  }
+  

@@ -1,5 +1,5 @@
 {
-    "name": "@qld-design-system/button",
+    "name": "@design-system/button",
     "version": "1.0.0",
     "main": "index.js",
     "module": "index.js",

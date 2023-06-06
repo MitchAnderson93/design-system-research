@@ -1,23 +1,33 @@
 {
   "name": "design-system-prototype",
+  "homepage": "https://andersmx.github.io/design-system-research",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "jest & npx webpack & gulp dev",
     "serve": "webpack serve --no-cache --mode development",
-    "storybook": "start-storybook -p 6006",
+    "run-storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
     "build": "webpack --mode production",
+    "deploy-gh": "npx gh-pages -d storybook-static",
+    "predeploy": "build-storybook",
     "test": "jest"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.21.0",
+    "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
+    "@storybook/addon-a11y": "^6.5.16",
+    "@storybook/addon-actions": "^6.5.16",
     "@storybook/web-components": "^6.5.16",
     "babel-loader": "^9.1.2",
+    "gh-pages": "^5.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-concat": "^2.6.1",

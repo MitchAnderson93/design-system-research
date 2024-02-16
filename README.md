@@ -1,10 +1,7 @@
 # UI lib starter (Demo for KR7)
 
-> 
-> "Its not going to be a lift and shift"
-
 #### How does this approach relate:
-- Corresponds with Option 2/3. Re-write and migrate using handlebars and a test driven approach
+- Corresponds with Options 2/3. Re-write and migrate using handlebars and a test driven approach
 - KR7 - Can support web component (agnostic) or framework specific (react) with little re-work (upon decision of Option 2 or 3)
 - Any component work can be done using test driven approach (JEST/Jest axe and others)
 - Governed by WP8 - Coded solution, internal developers can grow the project
